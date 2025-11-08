@@ -1,0 +1,18 @@
+
+<style>
+:root{ --bg:#F7F8FA; --panel:#FFFFFF; --muted:#EEF0F3; --border:#E6E8EB;
+ --text:#1F2937; --text2:#6B7280; --accent:#007AFF; --radius:16px; --shadow:0 10px 28px rgba(0,0,0,.06);}
+html, body, .stApp { background: var(--bg) !important; color: var(--text) !important; }
+[data-testid="stSidebar"]{ background: var(--panel) !important; border-right:1px solid var(--border); box-shadow: var(--shadow); }
+h1,h2,h3,h4,h5,h6,strong { color: var(--text) !important; } p,span,small,label { color: var(--text) !important; }
+.stCaption, .stMarkdown p { color: var(--text2) !important; }
+.stButton>button{ background: var(--accent) !important; color:#fff !important; border:none !important; border-radius:12px; padding:10px 16px; font-weight:600; box-shadow:0 6px 14px rgba(0,122,255,.18); }
+input, textarea, .stTextInput input, .stTextArea textarea, .stSelectbox div[data-baseweb="select"] > div, .stNumberInput input {
+  background:#F2F3F5 !important; color:#111 !important; border:1px solid #DADDE2 !important; border-radius:12px !important;
+}
+.cf-card{ background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); padding:16px 18px; box-shadow:var(--shadow); margin:10px 0; }
+.cf-title{ font-weight:700; font-size:16px; display:flex; align-items:center; gap:8px; margin:0 0 8px; }
+.cf-chip{ display:inline-block; background:#F0F7FF; color:#0A66FF; padding:2px 8px; border-radius:999px; font-size:12px; }
+.cf-badge{ display:inline-flex; align-items:center; gap:6px; background:#FFEFD6; color:#B26B00; padding:2px 8px; border-radius:999px; font-size:12px; font-weight:600;}
+.cf-hint{ font-size:12px; color: var(--text2); }
+</style>
