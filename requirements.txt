@@ -1,7 +1,9 @@
-streamlit>=1.39.0
-openai>=1.40.0
-pandas>=2.2.2
-python-dateutil>=2.9.0
-streamlit-calendar>=1.2.1
-pillow>=10.3.0
-requests>=2.32.3
+streamlit==1.39.0
+openai==1.40.0
+pandas==2.2.2
+python-dateutil==2.9.0
+streamlit-calendar==1.2.1
+pillow==10.3.0
+requests==2.32.3
+plotly==5.24.0
+uuid==1.30
